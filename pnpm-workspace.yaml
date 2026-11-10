@@ -1,0 +1,10 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+# Expo/Metro resolves most reliably with a hoisted node_modules layout in monorepos.
+nodeLinker: hoisted
+
+allowBuilds:
+  sharp: false
+  unrs-resolver: false

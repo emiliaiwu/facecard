@@ -1,0 +1,12 @@
+/* Facecard design tokens (CSS). Mirror of src/tokens.ts; keep in sync. */
+:root {
+  --fc-paper: #f3f0e8;
+  --fc-ink: #161616;
+  --fc-blue: #3d5bff;
+  --fc-lime: #d6ff3a;
+  --fc-coral: #ff5a36;
+  --fc-border: #bdb9ae;
+
+  --fc-border-width: 1px;
+  --fc-radius: 0;
+}

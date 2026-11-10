@@ -1,0 +1,20 @@
+{
+  "name": "facecard",
+  "private": true,
+  "packageManager": "pnpm@12.18.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:web": "turbo run dev --filter=@facecard/web",
+    "dev:mobile": "turbo run dev --filter=@facecard/mobile",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "turbo": "^2.6.0",
+    "typescript": "~6.0.3"
+  }
+}
